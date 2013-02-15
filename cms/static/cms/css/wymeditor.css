@@ -34,13 +34,13 @@ p.date {
 }
 
 /* PARA: Hidden note */
-p.hidden-note /* p[@class!="important"] */ {
+p.hidden-note /* p[class!="important"] */ {
      display: none;
     /* color: #999; border: 2px solid #ccc; */
 }
 
 /* PARA: Important */
-p.important /* p[@class!="hidden-note"] */ {
+p.important /* p[class!="hidden-note"] */ {
     color: red; font-weight: bold;
     /* color: red; font-weight: bold; border: 2px solid red; */
 }
